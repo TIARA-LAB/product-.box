@@ -1,0 +1,16 @@
+.parent-container{
+    border: 2px dotted blue;
+    padding: 5px;
+    display: grid;
+    columns: 25% 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 5fr ;
+
+
+
+}
+.child{
+    border: 1px solid red;
+    width: 250px;
+    height: 100px;
+}
