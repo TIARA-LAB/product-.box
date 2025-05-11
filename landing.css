@@ -1,0 +1,60 @@
+body{
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: black;
+    background: white;
+}
+.section{
+ background-color: #2f2f4f;
+ color: white;
+ padding: 3rem 2rem;
+ text-align: center;
+}
+.input{
+    padding: 0.7;
+    width: 250px;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 768px){
+    .section{
+        padding: 2rem 1rem;
+    }
+    .input{
+        width: 100%;
+    }
+}
+
+
+header{
+    padding: 2em;
+    background-color: white;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color: white;
+}
+.div{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    justify-content: end;
+    gap: 20px
+}
+.div{
+    flex-direction: column;
+    margin: 50px;
+}
+footer{
+    background-color: #0a0a23;
+    color:white ;
+    display: block;
+    margin-bottom: 1rem;
+}
+.footer-column{
+    margin-bottom: 1rem;
+}
